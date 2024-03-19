@@ -1,0 +1,16 @@
+[project]
+name = "obzerveai"
+version = "0.0.1"
+authors = [
+  { name="obzerveai", email="goyal.siddharth22@gmail.com" },
+]
+description = "A python package of utilities for AI based solutions"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/obzerveai/"
