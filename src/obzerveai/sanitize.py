@@ -1,4 +1,5 @@
 import re
+from monitor import track_usage
 
 def redact_sensitive_info(text):
     # Regular expressions for sensitive information
@@ -25,4 +26,5 @@ def redact_sensitive_info(text):
         # else:
             redacted_text = re.sub(pattern, '[REDACTED - {}]'.format(category), redacted_text)
     
+    track_usage()
     return redacted_text

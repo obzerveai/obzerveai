@@ -1,0 +1,15 @@
+apiVersion: 1
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: proxy
+    database: usage
+    user: admin
+    password: "Admin@123"
+    url: http://influxdb:8086
+    isDefault: true
+    editable: true
+    jsonData:
+      httpHeaderName1: "Authorization"
+    secureJsonData:
+      httpHeaderValue1: 'Token my_default_token_value'
