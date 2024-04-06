@@ -1,1 +1,1 @@
-from . import sanitize
+from .sanitize import ObzerveAI
