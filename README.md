@@ -32,7 +32,7 @@ print(redacted_text)
 ```
 ## Dashboard
 A pre-created dashboard will be available. You can access it at http://localhost:3000/dashboards
-![image](images/dashboard.png)
+![image](https://raw.githubusercontent.com/obzerveai/obzerveai/main/images/dashboard.png)
 ## Advanced Configuration
 You can choose to change the influxdB configurations with the following parameters while initiating the ObzerveAI class:
 ```python
